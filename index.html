@@ -1,0 +1,33 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cadastro">
+        <h2></h2>
+        <label for="nome"></label>
+        <input type="text" id="nomeJogador">
+        <button id="salvar" onclick="AdicionarJogador()" class="zerar">Incluir Jogador</button>
+
+    </div>
+    <div class="cadastro2">
+        <h1>Tabela de classificação</h1>
+    </div>    
+    <table>
+        <thead>
+            <tr>
+                <th class="center">Nome</th>
+                <th class="center">Vitórias</th>
+                <th class="center">Empates</th>
+                <th class="center">Derrotas</th>
+                <th class="center">Pontos</th>
+                <th class="center" colspan="4">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+
+        </tbody>
+    </table>
+    <button onclick="zerarJogo()" class="zerar">Zerar Pontuação</button>
+    <script src="app.js"></script>
