@@ -3,9 +3,9 @@
 }
 
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   min-height: 400px;
-  background-image: url("https://i.pinimg.com/originals/67/3a/b1/673ab1ddbefd571453dd36f8fc8458ea.jpg");
+  background-image: url('gif.gif');
   background-color: #232324;
   background-size: 100%;
   background-position: center;
@@ -16,16 +16,14 @@ body {
   text-align: center;
   padding: 20px;
   height: 100vh;
-  
 }
 
 .cadastro2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-h1{
+h1 {
   color: black;
 }
 
